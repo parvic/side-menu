@@ -9,8 +9,12 @@ export const SideMenuContainer = styled(motion.nav)`
   border-radius: 0 0.25rem 0.25rem 0;
 
   header {
+    width: 100%;
     color: #fff;
-    margin: 0 auto;
+    margin-bottom: 1rem;
+    button {
+      width: 5rem;
+    }
   }
 
   button {
